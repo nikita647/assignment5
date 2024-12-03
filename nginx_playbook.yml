@@ -1,0 +1,9 @@
+---
+- name: deploy nginx on specified os
+  hosts: all
+  become: true
+  roles: 
+    - demo
+  vars:
+    nginx_version: "1.18.0-6ubuntu14.5"
+

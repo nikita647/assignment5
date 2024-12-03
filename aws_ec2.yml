@@ -1,0 +1,10 @@
+plugin: amazon.aws.aws_ec2
+hosts: all
+regions:
+  - us-east-1
+filters:
+  tag:Name:
+   - node1
+
+# vars:
+#   private_key_file: "/home/ubuntu/assignment5/key_new.pem"  
