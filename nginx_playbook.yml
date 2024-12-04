@@ -5,5 +5,5 @@
   roles: 
     - demo
   vars:
-    nginx_version: "1.18.0-6ubuntu14.5"
+    nginx_version: "1.24.0-2ubuntu7.1"
 
